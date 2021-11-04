@@ -13,10 +13,10 @@
     <p>Time is up there</p>
     <script>
         function timeStr() { //function for the time 
-    var t = new Date(); //define t
-    var ltstr = t.toLocaleTimeString();//method of date object reutrns string form
-    document.querySelector("p").innerHTML = ltstr;//place it in the p in html
-    }
+        var t = new Date(); //define t
+        var ltstr = t.toLocaleTimeString();//method of date object reutrns string form
+        document.querySelector("p").innerHTML = ltstr;//place it in the p in html
+        }
     setInterval(timeStr, 1)
     </script>
 </body>
